@@ -1,0 +1,22 @@
+{
+  "name": "kaluzki/oxid-skeleton-project",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": [{"type": "vcs", "url": "https://github.com/kaluzki/oxid-skeleton-project"}],
+  "require": {
+    "oxid-esales/oxideshop-ce": "^6.0",
+    "kaluzki/oxid-api": "dev-master",
+    "roave/security-advisories": "dev-master",
+    "php": ">=5.6"
+  },
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {"kaluzki\\": ["src"]}
+  },
+  "autoload-dev": {
+    "psr-4": {"kaluzki\\": ["tests"]}
+  },
+  "bin": [],
+  "scripts": {},
+  "extra": {}
+}
